@@ -50,7 +50,6 @@ button{
 
 .hero-section{
     display: flex;
-    align-items: center;
     background-color: #1F2937;
 }
 
@@ -64,8 +63,11 @@ button{
 }
 
 .hero-section .wrapper{
+    width: 100%;
     display: flex;
+    justify-content: space-between;
     margin: 6% 15%;
+
     gap: 10%;
 }
 
