@@ -16,24 +16,28 @@ body{
     flex-direction: column;
     justify-content: space-between;
 }
+.header .title{
+    font-size: 24px;
+    font-weight: bolder;
+}
 
 .info .title{
     font-size: 48px;
     margin-bottom: 9px;
-    color: white;
+    color: #F9FAF8;
     font-weight: bolder;
 }
 
 .info .text{
     font-size: 18px;
     margin-bottom: 9px;
-    color:white;
+    color:#E5E7EB;
 }
 
 button{
     background-color: #3882F6;
     font-size: 18px;
-    color: white;
+    color: #E5E7EB;
     border:0;
     border-radius: 4px;
     padding: 6px 16px;
@@ -54,7 +58,7 @@ button{
 }
 
 .header-contents{
-    color: white;
+    color: #E5E7EB;
     display: flex;
     align-items: center;
     justify-content: space-between;
